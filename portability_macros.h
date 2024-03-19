@@ -115,6 +115,8 @@
 #  define ZSTD_ASM_SUPPORTED 0
 #endif
 
+#define ZSTD_DISABLE_ASM 1
+
 /**
  * Determines whether we should enable assembly for x86-64
  * with BMI2.
